@@ -4,17 +4,21 @@
 # Pyenv-Win Installation and Setup Guide
 
 ## **1. Download `pyenv-win`**
-Visit the official [pyenv-win GitHub page](https://github.com/pyenv-win/pyenv-win) and download `pyenv-win`.
+Visit the official [pyenv-win GitHub page](https://github.com/pyenv-win/pyenv-win) and download `pyenv-win`. You can download by clicking on the **<span style="background-color: green;color:white"> <>Code </span>** button and download zip.
+
+
 
 ## **2. Create `.pyenv` Folder**
 Open a PowerShell instance and execute the following command:
 ```powershell
 mkdir $HOME/.pyenv
 ```
-This creates a `.pyenv` folder in `c:\users\<Your User Name>`.
+This creates a `.pyenv` folder in `c:\users\<YourUserName>`.
 
 ## **3. Extract and Copy**
-Extract the contents of the `pyenv-win` ZIP archive you downloaded. Next, copy both the `pyenv-win` folder and the `.version` file from the `pyenv-win-master` directory into the `.pyenv` folder you created in the previous step.
+Extract the contents of the `pyenv-win` ZIP file you downloaded.
+
+Next, copy both the `pyenv-win` folder and the `.version` file from the `pyenv-win-master` folder into the `.pyenv` folder you created in the previous step.
 
 ## **4. Set Environment Variables**
 In the same PowerShell instance, execute the following commands:
@@ -35,6 +39,7 @@ Close the current PowerShell instance and open a new one as an **administrator**
 ```powershell
 Set-ExecutionPolicy unrestricted
 ```
+once prompted withe the message click **A** on your keyboard.
 
 ## **6. Test `pyenv` Installation**
 In the PowerShell, execute:
